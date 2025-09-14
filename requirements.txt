@@ -1,0 +1,13 @@
+requests
+geographiclib
+pyproj
+shapely==2.0.4
+python-dotenv
+fastapi
+uvicorn
+spacy
+supabase 
+python-multipart
+anthropic
+google-generativeai
+websockets>=12.0
