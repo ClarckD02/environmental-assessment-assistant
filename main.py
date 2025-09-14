@@ -24,7 +24,8 @@ def create_app() -> FastAPI:
             "*",  # Allow all origins for development - tighten in production
             "https://lovable.dev",
             "https://*.lovable.dev",
-            "https://phase1-production-2a06.up.railway.app",
+            "https://*.onrender.com",
+            "https://phase-1-g0qd.onrender.com",
             "http://localhost:3000",
             "http://localhost:8000",
         ],
