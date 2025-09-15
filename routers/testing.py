@@ -526,7 +526,7 @@ async def handle_intelligent_chat(websocket, message, session, distance_calculat
     report_type = session.get("report_type", "EDR")
     
     if not session.get("main_document"):
-        await websocket.send_text("Please select a report type and upload the subject property PDF file first.")
+        await websocket.send_text("Please upload the subject propety adress and pdf file for the subject property.")
         return
     
     # Determine section numbers based on report type
